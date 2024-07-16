@@ -37,7 +37,7 @@ jobs:
          retries: 3
          retry-exempt-status-codes: 400,401
          script: |
-           github.rest.issues.crreate({
+           github.rest.issues.create({
             owner: 'OWNER',
             repo: 'REPO',
             title: 'Found a bug',
